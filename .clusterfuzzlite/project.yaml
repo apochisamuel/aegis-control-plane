@@ -1,0 +1,13 @@
+language: c
+fuzzing_engines:
+  - libfuzzer
+sanitizers:
+  - address
+  - undefined
+architectures:
+  - x86_64
+fuzz_targets:
+  - capture_stream_fuzzer
+  - frame_sequence_fuzzer
+  - policy_blob_fuzzer
+  - extension_block_fuzzer

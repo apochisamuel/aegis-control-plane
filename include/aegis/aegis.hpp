@@ -1,0 +1,11 @@
+#pragma once
+#include "aegis/bytes.hpp"
+#include "aegis/capture.hpp"
+#include "aegis/domain.hpp"
+#include "aegis/engine.hpp"
+#include "aegis/subsystems.hpp"
+#include "aegis/diagnostics.hpp"
+#include "aegis/recovery/checkpoint_journal.hpp"
+#include "aegis/trace/fragment_trace.hpp"
+#include "aegis/charging/charging_projection.hpp"
+#include "aegis/replay/replay_book.hpp"

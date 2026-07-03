@@ -1,0 +1,9 @@
+{
+  "root": "/mnt/data/aegis-control-plane",
+  "module_count": 68,
+  "source_files": 78,
+  "header_files": 139,
+  "raw_lines": 18872,
+  "fuzz_targets": 4,
+  "verified_private_tasks": 6
+}
